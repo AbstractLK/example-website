@@ -23,7 +23,9 @@
                     <InputText placeholder="Search" class="mr-5" type="text" />
 
                     <Button label="Sign Up" outlined  size="small" class="mr-3"></Button>
-                    <Button label="Sign In" outlined  severity="secondary" size="small" class="mr-3"></Button>
+                    <router-link to="/signIn">
+                        <Button label="Sign In" outlined  severity="secondary" size="small" class="mr-3"></Button>
+                    </router-link>
                 </template>
             </Menubar>
         </div>
